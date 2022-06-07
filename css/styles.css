@@ -636,8 +636,21 @@ footer .logo {
 
   width: 530px;
   height: 580px;
+  padding: 40px;
+  /*
+  display: flex;
+  flex-direction: column; */
 
   background-color: var(--white-color);
+}
+
+.modal-caption {
+  display: block;
+}
+
+.modal-field {
+  display: block;
+  min-width: 100%;
 }
 
 .modal button {
