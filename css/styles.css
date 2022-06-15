@@ -622,6 +622,7 @@ footer .logo {
   border-radius: 4px;
 
   background-color: transparent;
+  transition: border-color var(--transion-values);
 }
 
 .footer-input::placeholder {
@@ -760,6 +761,8 @@ footer .logo {
   color: var(--primary-color);
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
+
+  transition: border-color var(--transion-values);
 }
 
 .modal-text::placeholder {
